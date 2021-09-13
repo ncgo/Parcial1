@@ -77,9 +77,6 @@ function fahrenheitToCelsius(fahrenheit) {
     console.log(Math.round(celsius));
 }
 
-
-
-
 /*  OBJETOS 
 
 A) Define un constructor para crear objetos tipo "Perro" que reciba 3 parametros
@@ -88,7 +85,6 @@ A) Define un constructor para crear objetos tipo "Perro" que reciba 3 parametros
 2) Color
 3) Raza
 
-
 B) Crea 3 objectos con diferentes valores.
 
 C) Con un console.log escribe el nombre del primer objeto, el color del segundo, y la raza del tercero. 
@@ -96,24 +92,23 @@ C) Con un console.log escribe el nombre del primer objeto, el color del segundo,
 
 
 */
-
-
+class Perro {
+    constructor(Nombre, Color, Raza) {
+        this.nombre = Nombre;
+        this.color = Color;
+        this.raza = Raza
+    }
+}
 
 /***
  * 
  *        PRUEBA TUS FUNCIONES
  * 
  ***/
-
-
 mayusculas(nombres);
 calculateDogAge(4);
 celsiusToFahrenheit(35)
 fahrenheitToCelsius(95)
-
-
-
-
 
 /***
  * 
@@ -121,7 +116,13 @@ fahrenheitToCelsius(95)
  * 
  ***/
 
+let perro1 = new Perro("Sherlock", "gris", "Schnauzer");
+let perro2 = new Perro("Bolita", "café", "Boxer");
+let perro3 = new Perro("Bolt", "blanco", "Swiss White Shepherd");
 
+console.log(perro1["nombre"])
+console.log(perro2["color"]);
+console.log(perro3["raza"])
 </script>
 
 </head>
