@@ -1,0 +1,33 @@
+#img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: double 5px black;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#quote {
+    text-align: center;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.date-bold {
+    font-weight: bold;
+}
+
+body {
+    background-color: #FFC0BE;
+}
+
+footer {
+    margin-top: 50px;
+}
