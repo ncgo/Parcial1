@@ -20,7 +20,12 @@ Funciones 1 -  Crea una funcion llamada "mayusculas" que:
 
 // CREA TU FUNCION MAYUSCULAS aqui:
 
-
+function mayusculas(nombres) {
+    nombres.forEach(function(item,index, array) {
+        console.log(item.toUpperCase());
+    })
+}
+mayusculas(nombres);
 
 
 /*
