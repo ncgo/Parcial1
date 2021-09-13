@@ -44,8 +44,6 @@ function calculateDogAge(edad) {
     console.log(`Tu perro tiene ${ePerro} años perro`);
 }
 
-
-
 /*
 
 ### Funciones 3 - Crea 2 funciones. Una llamada celsiusToFahrenheit que:
@@ -67,12 +65,17 @@ fahrenheitToCelsius(95) --> 35
 
 */
 
-
-
-
 // CREA TUS FUNCIONES  aqui:
 
+function celsiusToFahrenheit(celsius) {
+    let fahrenheit = (9/5 * celsius) + 32;
+    console.log(Math.round(fahrenheit));
+}
 
+function fahrenheitToCelsius(fahrenheit) {
+    let celsius = ((fahrenheit - 32)*5)/9;
+    console.log(Math.round(celsius));
+}
 
 
 
